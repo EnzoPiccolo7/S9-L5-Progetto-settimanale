@@ -1,0 +1,16 @@
+.container {
+    margin-top: 2rem;
+}
+.card {
+    border: 2px black solid;
+    height: 30rem;
+}
+.display {
+    height: 8rem;
+    border: 2px black solid;
+    margin-bottom: 1rem;
+    padding-left: 0.3rem;
+    overflow: auto;
+}
+#numeri {
+}
