@@ -1,9 +1,19 @@
 .container {
     margin-top: 2rem;
 }
+h5{
+    text-align: center;
+}
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 .card {
     border: 2px black solid;
     height: 30rem;
+    background-color: cadetblue;
+    border-radius: 10%;
 }
 .display {
     height: 8rem;
@@ -11,6 +21,30 @@
     margin-bottom: 1rem;
     padding-left: 0.3rem;
     overflow: auto;
+    background-color: aliceblue;
+    border-radius: 5%;
+
 }
 #numeri {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    font-size: 1.6rem;
+    color: brown;
+    margin-bottom: 1rem;
+    background-color: bisque;
+    box-shadow: 10px 9px 9px black;
+}
+div.card:nth-child(1) {
+    left: -25px;
+  } 
+div.card:nth-child(3) {
+    right: -25px;
+  }
+.contbott {
+    text-align: center;
+}
+.contbott>button{
+    margin-left: 1rem;
 }
