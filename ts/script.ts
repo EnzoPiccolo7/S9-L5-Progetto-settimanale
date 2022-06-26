@@ -79,9 +79,9 @@ class smartphone {
 
 }
 }
- let FirstUser = new smartphone(10.20,0);
-let SecondUser = new smartphone(12,0);
-let thirdUser = new smartphone(13,0);
+ let FirstUser = new smartphone(2,0);
+let SecondUser = new smartphone(4,0);
+let thirdUser = new smartphone(7,0);
 
 let ric1 = document.querySelector('.ricarica1');
 ric1?.addEventListener('click',function (){
@@ -192,9 +192,9 @@ timer?.addEventListener('click',function(){
             }else {
                 FirstUser.chiamata()
             }
-          },100);
+          },1000);
 
-    timer2_firstuser = setInterval(prinTimer,100);}
+    timer2_firstuser = setInterval(prinTimer,1000);}
     
 });
 
@@ -339,9 +339,9 @@ timer2?.addEventListener('click',function(){
             }else {
                 SecondUser.chiamata()
             }
-          },100);
+          },1000);
 
-    timer2_firstuser = setInterval(prinTimer2,100);}
+    timer2_firstuser = setInterval(prinTimer2,1000);}
     
     
 });
@@ -489,9 +489,9 @@ timer3?.addEventListener('click',function(){
             }else {
                 thirdUser.chiamata()
             }
-          },100);
+          },1000);
 
-    timer2_firstuser = setInterval(prinTimer3,100);}
+    timer2_firstuser = setInterval(prinTimer3,1000);}
         });
 
 /* STACCA CHIAMATA */
