@@ -84,9 +84,7 @@ let SecondUser = new smartphone(4,0);
 let thirdUser = new smartphone(7,0);
 
 let ric1 = document.querySelector('.ricarica1');
-ric1?.addEventListener('click',function (){
-    FirstUser.ricarica();}
-    );
+ric1?.addEventListener('click',  FirstUser.ricarica    );
 
 let ric2 = document.querySelector('.ricarica2');
 ric2?.addEventListener('click',function (){
@@ -386,7 +384,7 @@ lista2?.addEventListener('click',function(){
         console.log('sbagliato a collegare il pulsante')
     } else {
         lista1stampa2.innerHTML =  SecondUser._NumeroChiamate.toString() + ' chiamata';
-        FirstUser.listachiam.forEach((ele: { listachiam:any ; }) => {
+        SecondUser.listachiam.forEach((ele: { listachiam:any ; }) => {
             let i2 = '<br  /> durata: minuti '+ ele + 'secondi';
             console.log(i2);
             lista1stampa2.innerHTML = lista1stampa2.innerHTML  + i2;/* dopo aver cliccato su azzera lista,
